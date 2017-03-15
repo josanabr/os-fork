@@ -1,5 +1,5 @@
 /**
----- findprime2.c ----
+---- findprime2b.c ----
 1- Programa que muestra como contar la cantidad de numeros primos que se 
    encuentra en un rango de numeros, desde LOW hasta HIGH.
 2- En esta version se usan dos procesos para dividir el trabajo de contar 
