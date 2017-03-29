@@ -6,6 +6,9 @@
    cuantos primos hay en el rango LOW hasta HIGH.
 3- En esta version se obliga a que el proceso padre espere por la terminacion de
    la ejecucion de su hijo.
+4- En esta version el hijo le envia de vuelta la cantidad de primos que encontro
+   y el padre suma los dos valores y se obtiene el total de primos en el rango
+   LOW - HIGH
 
 El metodo usado para determinar si un numero N es primo es buscar un
 numero en el rango 2..N/2 que divida exactamente a N. De existir dicho numero 

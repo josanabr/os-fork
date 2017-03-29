@@ -12,7 +12,9 @@ int main(int argc,
 	pid = fork();
 	if (pid == 0) { // es el hijo
 		b = 4 - a;
+		printf("PID: %d\n",getpid());
 	} else { // es el padre
 		printf("a: %d b: %d\n",a, b);
+		printf("PID: %d mi hijo: %d\n",getpid(), pid);
 	}
 }
