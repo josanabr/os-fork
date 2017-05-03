@@ -24,7 +24,7 @@ int isprime(int p) {
 	int i,tope;
 
 	// Si es un numero entre 2 y 5, entonces es primo
-	if (p >= 2 && p <= 5)
+	if (p == 2 || p == 3)
 		return 1;
 	// Determinamos cual es la mitad de 'p'
 	tope = (int)(p/2);
